@@ -1,0 +1,13 @@
+backups
+autosave
+auto-save-list
+elpa
+irony
+tramp
+*~
+*.eld
+*.elc
+#*
+.#*
+.DS_Store
+*.cache
