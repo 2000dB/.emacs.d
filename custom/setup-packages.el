@@ -66,5 +66,18 @@
   (use-package yasnippet-snippets)
   )
 
+(use-package multi-web-mode
+  :init
+  (setq mweb-default-major-mode 'html-mode)
+  (setq mweb-tags 
+        '((php-mode "<\\?php\\|<\\? \\|<\\?=" "\\?>")
+          (js-mode  "<script +\\(type=\"text/javascript\"\\|language=\"javascript\"\\)[^>]*>" "</script>")
+          (c-mode  "<script +\\(type=\"x-shader/x-vertex\"\\|type=\"x-shader/x-fragment\\\|language=\"javascript\"\\)[^>]*>" "</script>")
+          (css-mode "<style +type=\"text/css\"[^>]*>" "</style>")))
+  (setq mweb-filename-extensions '("php" "htm" "html" "ctp" "phtml" "php4" "php5"))
+  (multi-web-global-mode 1)
+  )
+
+
 
 (provide 'setup-packages)

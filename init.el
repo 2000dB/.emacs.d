@@ -55,7 +55,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (yasnippet-snippets yasnippet company-irony-c-headers company-irony irony flycheck company-c-headers company helm-ag helm-projectile helm-swoop helm use-package spacemacs-theme projectile git-gutter-fringe+)))
+    (multi-web-mode yasnippet-snippets yasnippet company-irony-c-headers company-irony irony flycheck company-c-headers company helm-ag helm-projectile helm-swoop helm use-package spacemacs-theme projectile git-gutter-fringe+)))
  '(safe-local-variable-values
    (quote
     ((company-clang-arguments "-I/Users/vdb/LIBRARIES/openFrameworks/libs/openFrameworks/**")))))
